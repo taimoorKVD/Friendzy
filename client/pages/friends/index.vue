@@ -98,6 +98,12 @@
 import Navbar from '../../components/Navbar.vue'
 export default {
     middleware: ['auth'],
+    head: {
+        title: '| Friends',
+        meta: [
+            { hid: 'description', name: 'description', content: 'Friends' }
+        ],
+    },
     components: { Navbar },
     data: () => ({
         friends: [],

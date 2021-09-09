@@ -37,6 +37,12 @@ import navbar from '../../components/Navbar';
 
 export default {
     middleware: ['guest'],
+    head: {
+        title: '| Login',
+        meta: [
+            { hid: 'description', name: 'description', content: 'Login' }
+        ],
+    },
     components: {
         navbar
     },

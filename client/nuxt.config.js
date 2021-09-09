@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Kingdom Vision',
+    titleTemplate: 'Kingdom Vision %s',
     htmlAttrs: {
       lang: 'en'
     },
@@ -16,6 +16,9 @@ export default {
       { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css' },
     ]
   },
+
+  // nuxt built in loader
+  loading: false,
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [

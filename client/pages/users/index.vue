@@ -54,6 +54,12 @@
 import Navbar from '../../components/Navbar.vue';
 export default {
     middleware: ['auth'],
+    head: {
+        title: '| Users',
+        meta: [
+            { hid: 'description', name: 'description', content: 'Users' }
+        ],
+    },
     
     components: { Navbar },
     data: () => ({

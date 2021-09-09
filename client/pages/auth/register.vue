@@ -51,6 +51,12 @@ export default {
     components: {
         navbar
     },
+    head: {
+        title: '| Register',
+        meta: [
+            { hid: 'description', name: 'description', content: 'Register' }
+        ],
+    },
     data: () => ({
         form: {
             name: '',
