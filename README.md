@@ -5,8 +5,13 @@
 **This application is for connecting with friends having some features such as:**
 
 **Sent friend request**
+
 **Accept friend request**
+
 **Ignore friend request**
+
 **Unfriend the friends**
+
 **View friends list**
+
 **View friends request**
